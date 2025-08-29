@@ -1,0 +1,8 @@
+aws_region   = "us-east-1"
+project_name = "webapp"
+environment  = "dev"
+
+# --- SECRETS ---
+# You must provide a password for the database.
+# Do not commit the terraform.tfvars file with the real password.
+db_password = "InputYourStrongPasswordHere"
